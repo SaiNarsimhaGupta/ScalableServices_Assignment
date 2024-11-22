@@ -1,0 +1,22 @@
+server:
+  port: 8085
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://venkatsai2k17lpu:Verizon.Git!123@hotelmanagementsystem.vdmxc.mongodb.net/BOOKINGS-DB
+      
+      auto-index-creation: true
+      
+  application:
+    name: BOOKINGS-SERVICE
+      
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost    
