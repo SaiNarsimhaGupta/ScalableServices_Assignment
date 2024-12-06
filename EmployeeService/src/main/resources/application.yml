@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://venkatsai2k17lpu:Verizon.Git!123@hotelmanagementsystem.vdmxc.mongodb.net/EMPLOYEES-DB
+      uri: 
       
       auto-index-creation: true
       
